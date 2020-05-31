@@ -1,0 +1,20 @@
+//Adding a Controller
+php artisan make:controller <ControllerName>
+
+//Compiling real time
+npm run watch 
+
+//create db model
+php artisan make:model <MODEL_NAME> -m
+
+//run migrations
+php artisan migrate
+
+//create controller with CRUD functions
+php artisan make:controller MerchantController --resource
+
+//show routes
+php artisan route:list
+
+//check migration status
+php artisan migrate:status

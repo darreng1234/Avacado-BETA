@@ -1,0 +1,32 @@
+body {
+  background: white !important;
+}
+
+.custom-navbar {
+  background: #333;
+}
+
+#nav-content {
+  color: white !important;
+}
+
+#main-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-dropdown {
+  height: 50px;
+}
+
+#proceed-btn {
+  padding: 5px;
+  margin: 20px;
+}
+
